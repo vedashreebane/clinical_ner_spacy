@@ -1,0 +1,22 @@
+# Use the official PyTorch CUDA 12.8+ wheels
+# --extra-index-url https://download.pytorch.org/whl/cu128
+
+# torch==2.7.0+cu128
+# torchvision==0.15.0+cu128
+# torchaudio==2.7.0+cu128
+
+# # spaCy with GPU (CuPy) & transformer support
+# spacy[cuda12x,transformers]==3.7.*
+
+# Core data science libraries
+pandas>=2.0.0
+scikit-learn>=1.3.0
+joblib>=1.2.0
+
+# For serving & demo
+fastapi>=0.95.0
+uvicorn>=0.22.0
+streamlit>=1.20.0
+
+# (Optional) clinical NLP utilities
+medspacy>=0.2.0
